@@ -1,0 +1,180 @@
+.clear {
+	clear: both;
+}
+
+p {
+	font-family: Arial;
+	font-size: 12;
+}
+
+a {
+	text-decoration:none;
+	color:#333399;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+li {
+	display:inline-block;
+	height: 50px;
+}
+
+#signin {
+	height: 25px;
+	width: 75px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	background: #3399ff;
+	background: linear-gradient(#3399ff, #007fff);
+	background: -webkit-linear-gradient(#3399ff, #007fff);
+	background: -moz-linear-gradient(#3399ff, #007fff);
+	background: -o-linear-gradient(#3399ff, #007fff);
+
+}
+ul a{
+	color:#4d4d4d;
+}
+
+
+ul{
+	font-size:12;
+	list-style-type: none;
+	display:inline-block;
+	height: 40px;
+	width:50px;
+	text-align:center;
+	font-family:Arial;
+	margin: 0 auto;
+	padding: 7 0 0 0;
+}
+
+h3 {
+	font-family: Arial;
+	color: #808080;
+	font-weight: bold;
+	font-size:13px;
+	margin: 10 auto;
+	text-align: center;
+}
+
+#navbar {
+	margin: 0 auto;
+	width: 250px;
+	float: right;
+	height: 75px;
+	padding: 0 auto;
+}
+
+
+.search_button {
+	height: 36px;
+	width: 125px;
+	margin: 3;
+	background-color: #f2f2f2;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	display: inline-block;
+}
+
+.lucky_button {
+	height: 36px;
+	width: 150px;
+	margin: 3;
+	background-color: #f2f2f2;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	display: inline-block;
+}
+
+#logo {
+width:272px;
+height:92px;
+margin: 0 auto;
+display: block;
+}
+
+.main {
+	padding: 0;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.search_bar {
+	margin: 0 auto;
+	display: block;
+	height: 40px;
+	width: 600px;
+	border: solid 1px #ccc;
+	padding: 0;
+}
+
+.search_form {
+border-style: none;
+height:30px;
+display:inline-block;
+width: 400px;
+margin: 5 5 5 8;
+float: left;
+}
+
+input:focus{
+	outline:none;
+	}
+
+/*	.focused_search {
+		margin: 0 auto;
+		display: block;
+		height: 40px;
+		width: 600px;
+		border: solid 1px #0066ff;
+		padding: 0;
+	}
+*/
+#voice_button {
+	margin: 7 5 7 5;
+	float: right;
+	width: 26px;
+	height: 26px;
+}
+
+#footer {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-top: solid 1px #d9d9d9;
+	background-color: #f2f2f2;
+	height:40px;
+	width:100%;
+	padding: 5 0 0 0;
+	margin:0;
+}
+
+#footer div ul{
+	margin: 5 10 0 10;
+}
+
+#footer div a {
+	font-family: Arial;
+	color:#737373;
+}
+
+#container {
+	height: 100%;
+	margin: 0 auto;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
